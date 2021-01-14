@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+#searchbar {
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 400px;
+}
+button {
+    padding: 15px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+}
