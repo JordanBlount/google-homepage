@@ -4,35 +4,79 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color:#fff;
 }
 
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav a {
     color: #525457;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+#left_top {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 15px;
+}
+
+#left_top a {
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#right_top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 15px;
+}
+
+#right_top a {
+    text-align: center;
+    padding-right: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 #profilepic {
-    border-radius: 50%
+    border-radius: 50%; 
 }
 
 footer a {
     color: #70757a;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
+#search {
+    text-align: center;
+}
+
+#logo {
+    padding: 30px;
+}
+
+
 
 #searchbar {
     height: 44px;
@@ -57,4 +101,9 @@ footer a:hover {
 
 .searchbutton:hover {
     border: 1px solid #dfe1e5;
+}
+
+#search #tagline {
+    padding-top: 30px;
+    font-size: 14px;
 }
