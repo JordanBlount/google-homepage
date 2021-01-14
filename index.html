@@ -6,36 +6,48 @@
     <title>Google</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Store</li>
-            <li><a href=""></a>How Search works</li>
-            <li><a href=""></a>Carbon neutral since 2007</li>
-        </ul>
-    </nav>
-</header>
 <body>
-    <section id="content">
-        <div class="search">
-            <img src="#" alt="Google Logo">
-            <input type="text" name="search bar" id="searchbar">
-            <button id="search">Google Search</button>
-            <button id="lucky">I'm Feeling Lucky</button>
-            <p>Today we celebrate 30 years!</p>
+    <!-- Navigation -->
+    <nav>
+        <div id="leftitems">
+            <a href="#" class="navlink">About</a>
+            <a href="#" class="navlink">Store</a>
         </div>
+        <div id="rightsitems">
+            <a href="#" class="navlink">Gmail</a>
+            <a href="#" class="navlink">Images</a>
+            <a href="#"><img id="options" alt="Display more Google apps."></img></a>
+            <a href="#"><img id="profile" alt="Open your profile settings and options."></img></a>
+        </div>
+    </nav>
+
+    <!-- Logo + Search Box -->
+    <section id="search">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+            alt="Google Logo">
+        <form>
+            <input type="text" name="search bar" id="searchbar">
+            <button id="search" class="searchbutton">Google Search</button>
+            <button id="lucky" class="searchbutton">I'm Feeling Lucky</button>
+        </form>
+        Today we celebrate <b>30</b> years!</p>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id="leftitems">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </div>
+
+        <a href="#">Carbon neutral since 2007</a>
+        
+        <div id="rightitems">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </footer>
 </body>
-<footer>
-    <ul>
-        <li><a href=""></a>Advertising/li>
-        <li><a href=""></a>Business</li>
-        <li><a href=""></a>How Search works</li>
-        <li><a href=""></a><p>Carbon neutral since 2007</p></li>
-        <li><a href=""></a>Privacy</li>
-        <li><a href=""></a>Terms</li>
-        <li><a href=""></a>Settings</li>
-    </ul>
-</footer>
 </html>
