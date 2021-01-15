@@ -5,6 +5,7 @@
     -moz-appearance: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 input:focus, textarea:focus, select:focus{
@@ -13,6 +14,9 @@ input:focus, textarea:focus, select:focus{
 
 body {
     background-color:#fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 nav {
@@ -40,7 +44,7 @@ nav a:hover {
 
 #left_top a {
     text-align: center;
-    padding-left: 15px;
+    padding-left: 17px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
@@ -54,13 +58,20 @@ nav a:hover {
 
 #right_top a {
     text-align: center;
-    padding-right: 16px;
+    padding-right: 17px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
 
 #profilepic {
     border-radius: 50%; 
+}
+
+footer {
+    margin-top: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer a {
@@ -111,12 +122,6 @@ footer a:hover {
 #search #tagline {
     padding-top: 30px;
     font-size: 14px;
-}
-
-footer {
-    display: flex;
-    position: sticky;
-    justify-content: space-evenly;
 }
 
 #left_bottom {
